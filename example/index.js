@@ -1,13 +1,13 @@
-var renderSystem = require("./systems/renderSystem");
-var inputSystem = require("./systems/inputSystem");
-var behaviorSystem = require("./systems/behaviorSystem");
-var Entity = require('./Entity');
-var Position = require('./components/Position');
-var Box = require('./components/Box');
-var Color= require('./components/Color');
-var Rotation = require('./components/Rotation');
-var Input = require('./components/Input');
-var Behavior = require('./components/Behavior');
+var renderSystem = require("../src/systems/renderSystem");
+var inputSystem = require("../src/systems/inputSystem");
+var behaviorSystem = require("../src/systems/behaviorSystem");
+var Entity = require('../src/Entity');
+var Position = require('../src/components/Position');
+var Box = require('../src/components/Box');
+var Color= require('../src/components/Color');
+var Rotation = require('../src/components/Rotation');
+var Input = require('../src/components/Input');
+var Behavior = require('../src/components/Behavior');
 
 var canvas = document.getElementById("canvas");
 var ctx = canvas.getContext("2d");
